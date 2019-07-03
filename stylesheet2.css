@@ -1,0 +1,61 @@
+.header {
+	background-color:#f1f1f1;
+	padding:30px;
+	text-align:center;
+}
+
+#navbar{
+	overflow:hidden;
+	background-color:#333;
+}
+
+#navbar a {
+	float:left;
+	display:block;
+	color:#f2f2f2;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration:none;
+	font-size:17px;
+	font-family: "Libre Baskerville";
+}
+
+#navbar a:hover {
+	background-color:#ddd;
+	color:black;
+}
+
+#navbar a.active{
+	background-color:#4CAF50;
+	color:white;
+}
+
+.content{
+	padding:16px;
+	font-family: 'Libre Baskerville', serif;
+	font-size:13px;
+	margin-right:150px;
+	margin-left:150px;
+	margin-top:50px;
+}
+
+.sticky{
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+.sticky+.content {
+	padding-top:60px;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size:40px;
+	text-align:center;
+}
+
+h2{
+	font-family:'Libre Baskerville', sans-serif;
+	font-size:14px;
+}
